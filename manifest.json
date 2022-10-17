@@ -1,0 +1,22 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://xkcd.com",
+    "https://*.freshdesk.com",
+    "https://api.github.com"
+  ],
+  "engines": {
+    "node": "14.19.3",
+    "fdk": "8.4.0"
+  }
+}
